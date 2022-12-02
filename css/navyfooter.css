@@ -1,0 +1,67 @@
+/*Se quitan margenes, padding o bordes de toda la pagina*/
+html{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+}
+/*Se establece el tamaño de la fuente y se quitan todos los margenes*/
+body{
+    border: 0;    
+    padding: 0;
+    margin: 0;
+    font-size: 150%;
+    background-color: #e2e2e2;
+}
+/*Menu de navegacion, abarca todo el ancho de la pantalla,
+se le da color de fondo, se fija su posicion en la pantalla y 
+se le da detalles en los borde*/
+nav{
+    width: 100%;
+    background-color: #131a35;
+    overflow: hidden;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0px;
+    border-radius: 0% 0 10% 10% ;
+    
+    
+}
+.link{
+    width: 13%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 5%;
+    color: #f1f7ff;
+    
+}
+
+.link:hover{
+    background-color:  #f1f7ff;
+    color: #131a35;
+}
+/*El pie de pagina utiliza los mismos estilos que el menu de navegacion
+a excepcion de los decorados en los bordes*/
+footer{
+    width: 100%;
+    background-color: #131a35;
+    overflow: hidden;
+    border: 0;
+    margin: 0;
+    padding: 0.5% 0;
+    color: #f1f7ff; 
+}
+
+/*Todas las secciones tienen un fondo gris mas oscuro y un formato
+como si se tratara de una tarjeta*/
+section{
+    width: 70%;
+    margin: 5% 10%;
+    padding: 3% 5%;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.7) ;
+    border-radius: 15% 0 15%;
+    color: #f1f7ff;
+}
